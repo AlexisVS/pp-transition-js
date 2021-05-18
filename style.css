@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 80px 1fr 80px;
+    background-color: rgba(255, 85, 85, 0.863);
+    color: white;
+}
+header, footer {
+    background-color: crimson;
+}
+main {
+    padding: 0 10px;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+.wrapper p {
+    padding-bottom: 2rem;
+}
+.wrapper {
+    padding-bottom: 5rem;
+}
+
+.block-animation {
+    width: 50vw;
+    height: 450px;
+    background-color: cyan;
+    margin: 0 auto;
+}
+
+.animation {
+    animation: ease monAnimation 1s;
+    animation-;
+}
+@keyframes monAnimation {
+    0% {
+        background: rgba(0, 0, 0, 0);
+        transform: translate(-10vw);
+    }
+    100% {
+        transform: translate(0);
+        background: cyan;
+    }
+}
